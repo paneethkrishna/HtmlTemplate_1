@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img-back{
+background:url('./img/backgroung.jpg') no-repeat;
+background-size: cover; 
+width: 100%;
+height:100vh;
+}
+.centercarousel{
+    text-align: center;
+}
+.space{
+    padding: 15px;
+}
+
+.section h1,p{
+    font-family: cursive,sans-serif;
+    color:  white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+@media screen and (max-width: 885px) {
+    .section2img {
+        display: none;
+    }
+}
+
